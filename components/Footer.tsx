@@ -172,7 +172,7 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto px-6 py-6">
           <div className="flex flex-col md:flex-row items-center justify-center">
             <div className="text-white/60 text-sm mb-4 md:mb-0">
-              © 2025 Estate Advisor. All rights reserved.
+              © {new Date().getFullYear()} Estate Advisor. All rights reserved.
             </div>
           </div>
         </div>
