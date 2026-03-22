@@ -94,7 +94,7 @@ export const CompanyStorySection = () => {
               className="grid grid-cols-2 gap-6 pt-6"
             >
               <div className="text-center p-4 bg-[#080808] rounded-lg border border-[#d4af37]/30">
-                <div className="text-2xl font-bold">5000+</div>
+                <div className="text-2xl font-bold">500+</div>
                 <div className="text-sm text-[#b1b1b1]">Properties Sold</div>
               </div>
               <div className="text-center p-4 bg-[#080808] rounded-lg border border-[#d4af37]/30">
