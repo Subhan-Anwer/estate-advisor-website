@@ -37,7 +37,7 @@ const TestimonialsSection = () => {
   return (
     <section className="py-20 bg-[#0f0f0f] border-t border-gray-600 relative overflow-hidden">
       {/* Background Elements */}
-      <div className="absolute inset-0 opacity-10">
+      <div className="absolute inset-0 opacity-10" aria-hidden="true">
         <div className="bg-glow top-0 left-1/4 w-96 h-96"></div>
         <div className="bg-glow bottom-0 right-1/4 w-96 h-96"></div>
       </div>
