@@ -17,22 +17,26 @@ const socials = [
     icon: <Facebook size={18} />,
     hover: "hover:bg-[#106aff]",
     link: "https://www.facebook.com/EstateAdvisor0323",
+    ariaLabel: "Follow Estate Advisor on Facebook"
   },
   {
     icon: <Instagram size={18} />,
     hover:
       "hover:bg-gradient-to-br hover:from-[#F9CE34] hover:via-[#EE2A7B] hover:to-[#6228d7]",
     link: "https://www.instagram.com/estateadvisor01",
+    ariaLabel: "Follow Estate Advisor on Instagram"
   },
   {
     icon: <Linkedin size={18} />,
     hover: "hover:bg-[#086bc9]",
     link: "https://www.linkedin.com/company/officialestateadvisor/",
+    ariaLabel: "Follow Estate Advisor on LinkedIn"
   },
   {
     icon: <Youtube size={18} />,
     hover: "hover:bg-[#ff0000]",
     link: "https://www.youtube.com/@SohailRamzan_0323",
+    ariaLabel: "Follow Estate Advisor on YouTube"
   },
 ];
 
@@ -65,6 +69,10 @@ const Footer = () => {
                   key={idx}
                   href={social.link}
                   className={`w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center text-white transition-all duration-300 ${social.hover}`}
+                  aria-label={social.ariaLabel}
+                  title={social.ariaLabel}
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   {social.icon}
                 </Link>
