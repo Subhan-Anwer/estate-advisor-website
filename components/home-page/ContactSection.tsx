@@ -32,7 +32,7 @@ const contactMethods = [
     icon: <Mail className="w-6 h-6 text-white" />,
     title: "Email",
     value: "sohailadvisor90@gmail.com",
-    valueColor: "text-[#3b82f6]",
+    valueColor: "text-[#73B0FA]",
     note: "24-48 hour response",
     gradient: "from-[#3b82f6] to-[#1d4ed8]",
   },
@@ -40,7 +40,7 @@ const contactMethods = [
     icon: <MapPin className="w-6 h-6 text-white" />,
     title: "Visit Us",
     value: "Shahbaz Comm lane 4",
-    valueColor: "text-[#ee3942]",
+    valueColor: "text-[#FF8A8A]",
     note: "DHA Phase VI Karachi",
     gradient: "from-[#d61620] to-[#a00911]",
   },
@@ -184,6 +184,7 @@ const ContactSection = () => {
             <div className="h-100 flex items-center justify-center">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.649783424411!2d67.0608231!3d24.807442999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33d822b3770f5%3A0x113dad0e9ed8c62a!2sEstate%20Advisor!5e0!3m2!1sen!2s!4v1754113969412!5m2!1sen!2s"
+                title="Estate Advisor Office Location"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
